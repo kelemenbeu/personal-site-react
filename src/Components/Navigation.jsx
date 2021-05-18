@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import avatar from '../img/avatar.png';
 
-function Navigation() {
+const Navigation = () => {
     return (
         <NavigationStyled>
             <div className="avatar">
