@@ -1,23 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Sidebar from './Components/Sidebar';
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to my personal website!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/kelemenbeu"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          My github
-        </a>
-      </header>
+      <Sidebar/>
     </div>
   );
 }
