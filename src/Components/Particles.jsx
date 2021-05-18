@@ -7,11 +7,10 @@ const P = {
   Container: styled.div`
     transition: background-color 0.5s linear;
     position: absolute;
-    background-color: var(--background-dark-color);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    z-index: -1;
+    z-index: 0;
   `,
 };
 
@@ -30,7 +29,7 @@ export const Particles = () => {
             value: '7E7F9A',
           },
           shape: {
-            type: 'triangle',
+            type: 'circle',
             stroke: {
               width: 0,
               color: '000',

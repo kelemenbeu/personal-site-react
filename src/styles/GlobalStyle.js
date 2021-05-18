@@ -2,7 +2,7 @@ import {createGlobalStyle} from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     :root {
-        --primary-color: #646881;
+        --primary-color: #380036;
         --secondary-color: #5E6973;
         --background-dark-color: #646881;
         --background-light-color: #f1f1f1;
@@ -31,6 +31,18 @@ const GlobalStyle = createGlobalStyle`
         font-family: inherit;
         color: inherit;
         font-size: inherit;
+    }
+
+    h1 {
+        font-size: 4rem;
+        color: var(--white-color);
+        span{
+            font-size: 4rem;
+        }
+    }
+
+    span{
+        color: var(--primary-color);
     }
 `;
 
