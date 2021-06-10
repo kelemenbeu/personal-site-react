@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
         --white-color: #fff;
         --font-light-color: #a4acc4;
         --sidebar-dark-color: #3A445D;
+        --green-color: #2292A4;
     }
 
     *{
@@ -30,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     a {
         font-family: inherit;
         color: inherit;
-        font-size: inherit;
+        font-size: 1rem;
     }
 
     h1 {

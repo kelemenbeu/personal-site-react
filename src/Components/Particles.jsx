@@ -26,13 +26,13 @@ export const Particles = () => {
             },
           },
           color: {
-            value: '7E7F9A',
+            value: 'E49273',
           },
           shape: {
             type: 'circle',
             stroke: {
               width: 0,
-              color: '000',
+              color: 'ffffff',
             },
             polygon: {
               nb_sides: 5,
